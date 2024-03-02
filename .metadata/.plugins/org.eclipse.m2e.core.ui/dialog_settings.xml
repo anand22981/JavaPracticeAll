@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ashiu\eclipse-workspace\SpringEx3ListDataMemb"/>
+			<item value="C:\Users\ashiu\eclipse-workspace\HibernateProj4"/>
+			<item value="C:\Users\ashiu\eclipse-workspace\HibernateProj2"/>
+			<item value="C:\Users\ashiu\eclipse-workspace\comhiber"/>
+			<item value="C:\Users\ashiu\eclipse-workspace\com.shopNest\src\main\webapp\register.jsp"/>
+			<item value="C:\Users\ashiu\eclipse-workspace\JdBcConnection"/>
+			<item value="C:\Users\ashiu\eclipse-workspace\AggregratioionAndComposition"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Spring.AutoWiringUsingAnnotation.spring.AutowiringUsINGaNNotation"/>
+			<item value="spring.autowiringex4.springAutoWriingEx4"/>
+			<item value="spring.Auto.wiringex4.autoWringEx4"/>
+			<item value="springObjectBeanex4.springObjectBean"/>
+			<item value="SpringEx3DmList.SpringEx3ListDataMemb"/>
+		</list>
+		<list key="groupId">
+			<item value="Spring.AutoWiringUsingAnnotation"/>
+			<item value="spring.autowiringex4"/>
+			<item value="spring.Auto.wiringex4"/>
+			<item value="springObjectBeanex4"/>
+			<item value="SpringEx3DmList"/>
+		</list>
+		<list key="artifactId">
+			<item value="spring.AutowiringUsINGaNNotation"/>
+			<item value="springAutoWriingEx4"/>
+			<item value="autoWringEx4"/>
+			<item value="springObjectBean"/>
+			<item value="SpringEx3ListDataMemb"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ashiu\Downloads\com.learn.springBoot"/>
+			<item value="C:\Users\ashiu\Downloads\springBootProject1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

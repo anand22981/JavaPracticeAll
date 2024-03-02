@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <!-- Setter injection -->
+  <bean class="SpringEx2Lapt.SpringExam2Lapto.Laptop" id="l1">
+  <property name="serialNo" value="110"></property>
+  <property name="Brand" value="Msi"></property>
+  <property name="price" value="50000"></property>
+  
+  </bean>
+  
+  <!-- Constructor  injection -->
+  <bean class="SpringEx2Lapt.SpringExam2Lapto.Laptop" id="l2">
+  <constructor-arg value="112"></constructor-arg>
+  <constructor-arg value="Hp"></constructor-arg>
+  <constructor-arg value="60000"></constructor-arg>
+  
+  </bean>
+  
+  
+  </beans>

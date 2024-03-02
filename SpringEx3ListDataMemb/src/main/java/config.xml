@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+               
+	<bean class="SpringEx3DmList.SpringEx3ListDataMemb.Employee" id="emp">
+		<property name="technology">
+			<list>
+				<value>Java</value>
+				<value>Python</value>
+				<value>MySql</value>
+			</list>
+		</property>
+
+		<property name="project">
+			<set>
+				<value>Project1</value>
+				<value>Project2</value>
+			</set>
+		</property>
+		
+		<property name="company">
+		<map>
+		<entry key="1" value="XYZ"></entry>
+		<entry key="2" value="abc"></entry>
+		</map>
+		</property>
+	</bean>
+</beans>

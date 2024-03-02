@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+   <bean class="spring.autowiringex4.springAutoWriingEx4.Person" id="p1"
+    autowire="byType">
+    
+   </bean>
+   
+   <bean class="spring.autowiringex4.springAutoWriingEx4.Mobile" id="mob">
+    <property name="brand" value="Moto"/>
+    <property name="ram" value="8"/>
+    <property name="cost" value="40000"/>
+   </bean>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   </beans>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+   <!-- USING SETTER INJECTION -->
+   <bean class="mySpring.learn.Student" id="st">
+       <property name="roll" value="1" />
+        <property name="name" value="Deep" />
+        <property name="yop" value="2020" />
+   </bean>
+   
+   <!-- USING CONSTRUCTOR INJECTION -->
+   <bean class="mySpring.learn.Student" id="st1" >
+    <constructor-arg value="2"/>
+    <constructor-arg value="Ashiu"/>
+    <constructor-arg value="2023"/>
+   
+   </bean>
+   
+   <!-- collection injection -->
+   <bean class="mySpring.learn.SchoolDE" id="kod">
+   <property name="clients">
+   <list>
+     <value>Tonny Harris</value>
+     <value>Tech mahindra</value>
+     <value>Sonata software</value>
+   </list>
+   </property>
+   
+   <property name="teams">
+   <set>
+     <value>Tranning teams</value>
+     <value>testing teams</value>
+     <value>Operations teams</value>
+   </set>
+   </property>
+   
+   
+   <property name="trainers">
+   <map>
+     <entry key="Java" value="Aysuh"/>
+     <entry key="Python" value="Ashiu"/>
+     <entry key="Testing" value="Martin"/>
+     
+   </map>
+   </property>
+   
+   
+   </bean>
+   
+   
+</beans>

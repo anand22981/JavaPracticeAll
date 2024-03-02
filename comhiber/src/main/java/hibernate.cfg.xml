@@ -1,0 +1,31 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+	
+<hibernate-configuration>
+    <session-factory>
+     <property name="connection.url">jdbc:mysql://localhost/studentb</property>
+     <property name="connection.username">root</property>
+     <property name="connection.password">Ashiucristo@1</property>
+     
+     <property name="hbm2ddl.auto">update</property>
+     <property name="show_sql">true</property>
+     <mapping class="demo.comhiber.Student"/>
+     <mapping class="demo.comhiber.Bike"/>
+     
+     
+     
+     <mapping class="oneToMany.Customer"/>
+     <mapping class="oneToMany.Product"/>
+     
+     
+     <mapping class="school.manyTomany.Teacher"/>
+     <mapping class="school.manyTomany.Subject"/>
+     
+     
+     <mapping class="curd.operation.Citizen"/>
+     <mapping class="curd.operation.CrudApp"/>
+     
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;stringquestion&apos; to &apos;sameLENGTHsTRING&apos;&#x0D;&#x0A;- Original project: &apos;StringProg&apos;&#x0D;&#x0A;- Original element: &apos;StringProg/src/stringquestion&apos;&#x0D;&#x0A;- Renamed element: &apos;StringProg/src/sameLENGTHsTRING&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;stringquestion&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;stringquestion" name="sameLENGTHsTRING" qualified="false" references="true" stamp="1692871447897" textual="false" version="1.0"/>
+</session>
